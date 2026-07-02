@@ -113,6 +113,10 @@ a {
 
 .hero-bg {
   background-image: url("assets/medication-safety-kenya.jpg");
+  background-image: image-set(
+    url("assets/medication-safety-kenya.webp") type("image/webp"),
+    url("assets/medication-safety-kenya.jpg") type("image/jpeg")
+  );
   background-size: cover;
   background-position: center right;
   transform: scale(1.01);
@@ -506,6 +510,11 @@ h3 {
   }
 
   .hero-bg {
+    background-image: url("assets/medication-safety-kenya-mobile.jpg");
+    background-image: image-set(
+      url("assets/medication-safety-kenya-mobile.webp") type("image/webp"),
+      url("assets/medication-safety-kenya-mobile.jpg") type("image/jpeg")
+    );
     background-position: 62% center;
   }
 
